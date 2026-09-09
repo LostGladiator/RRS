@@ -1,0 +1,30 @@
+[
+  {
+    "project_id": "suse-neuvector-core",
+    "id": 550502,
+    "html_url": "https://github.com/neuvector/neuvector/releases/tag/v5.5.2",
+    "tag_name": "v5.5.2",
+    "name": "v5.5.2 Release",
+    "body": "This release is for vulnerability fixes only",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-05-27T12:57:00Z",
+    "author": {
+      "login": "williamlin-suse"
+    }
+  },
+  {
+    "project_id": "suse-neuvector-helm",
+    "id": 21100,
+    "html_url": "https://github.com/neuvector/neuvector-helm/releases/tag/v2.11.0",
+    "tag_name": "v2.11.0",
+    "name": "Release 2.11.0",
+    "body": "What's Changed\n\n* fix: use httpGet for controller readiness probe\n* chore: init version to chart 2.11.0 for NV 5.6.0\n\nFull Changelog: v2.10.3...v2.11.0",
+    "draft": false,
+    "prerelease": false,
+    "published_at": "2026-07-16T20:22:00Z",
+    "author": {
+      "login": "williamlin-suse"
+    }
+  }
+]

@@ -1,0 +1,32 @@
+name: Build and commit RSS feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 4 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build-feed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build RSS feed
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 -B scripts/github_release_rss.py --config config/projects.toml
+
+      - name: Commit changed feed
+        run: |
+          git config user.name "rss-release-bot"
+          git config user.email "rss-release-bot@example.invalid"
+          git add public/feed.xml
+          git diff --cached --quiet || git commit -m "Update RSS release feed"
+          git push

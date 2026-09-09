@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>AI-gekuerzte GitHub Release News</title>
+    <link>https://lostgladiator.github.io/RRS/feed.xml</link>
+    <description>Gefilterte und kompakt formulierte Release-News aus GitHub-Projekten.</description>
+    <language>de-CH</language>
+    <lastBuildDate>Wed, 09 Sep 2026 09:46:03 GMT</lastBuildDate>
+    <generator>scripts/github_release_rss.py</generator>
+    <ttl>1440</ttl>
+    <managingEditor>RSS Release Bot</managingEditor>
+    <atom:link href="https://lostgladiator.github.io/RRS/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SUSE NeuVector: Release 2.11.1</title>
+      <link>https://github.com/neuvector/neuvector-helm/releases/tag/v2.11.1</link>
+      <guid isPermaLink="true">https://github.com/neuvector/neuvector-helm/releases/tag/v2.11.1</guid>
+      <pubDate>Wed, 12 Aug 2026 03:05:32 GMT</pubDate>
+      <description>&lt;h2&gt;SUSE NeuVector: Release 2.11.1&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kurzfassung:&lt;/strong&gt; Release 2.11.1 wurde fuer SUSE NeuVector veroeffentlicht. Einordnung: Helm/Deployment Release. Wichtige Punkte: chore(deps): update module golang.org/x/net to v0.56.0; chore(deps): update module golang.org/x/text to v0.39.0; chore: bump helm chart versions for NeuVector 5.6.1.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version:&lt;/strong&gt; v2.11.1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; neuvector/neuvector-helm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release-Typ:&lt;/strong&gt; Offizielles GitHub Release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevanz:&lt;/strong&gt; Relevant gemaess Projektinteressen: Chart-Version und zugehoerige NeuVector-Version; Aenderungen an Kubernetes Manifests, CRDs oder Probes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Einordnung:&lt;/strong&gt; Helm/Deployment Release&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quelle:&lt;/strong&gt; &lt;a href="https://github.com/neuvector/neuvector-helm/releases/tag/v2.11.1"&gt;https://github.com/neuvector/neuvector-helm/releases/tag/v2.11.1&lt;/a&gt;&lt;/p&gt;</description>
+      <category>suse</category>
+      <category>neuvector</category>
+      <category>helm</category>
+      <category>kubernetes</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>SUSE NeuVector: v5.6.1 Release</title>
+      <link>https://github.com/neuvector/neuvector/releases/tag/v5.6.1</link>
+      <guid isPermaLink="true">https://github.com/neuvector/neuvector/releases/tag/v5.6.1</guid>
+      <pubDate>Tue, 11 Aug 2026 20:38:36 GMT</pubDate>
+      <description>&lt;h2&gt;SUSE NeuVector: v5.6.1 Release&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kurzfassung:&lt;/strong&gt; v5.6.1 Release wurde fuer SUSE NeuVector veroeffentlicht. Die Release Notes weisen auf Security- oder Vulnerability-Fixes hin. Wichtige Punkte: chore(cleanup): remove upgrade responder from release code; deps(go): update Go to 1.26.5 version; issue 2614: Revert for Processes to NOT be the default; feat: better error handling for image scan.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version:&lt;/strong&gt; v5.6.1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; neuvector/neuvector&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release-Typ:&lt;/strong&gt; Offizielles GitHub Release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevanz:&lt;/strong&gt; Treffer: security, upgrade&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Einordnung:&lt;/strong&gt; Security oder Vulnerability Fix&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quelle:&lt;/strong&gt; &lt;a href="https://github.com/neuvector/neuvector/releases/tag/v5.6.1"&gt;https://github.com/neuvector/neuvector/releases/tag/v5.6.1&lt;/a&gt;&lt;/p&gt;</description>
+      <category>suse</category>
+      <category>neuvector</category>
+      <category>container-security</category>
+      <category>kubernetes</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>SUSE NeuVector: Release 2.11.0</title>
+      <link>https://github.com/neuvector/neuvector-helm/releases/tag/v2.11.0</link>
+      <guid isPermaLink="true">https://github.com/neuvector/neuvector-helm/releases/tag/v2.11.0</guid>
+      <pubDate>Thu, 16 Jul 2026 20:22:05 GMT</pubDate>
+      <description>&lt;h2&gt;SUSE NeuVector: Release 2.11.0&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kurzfassung:&lt;/strong&gt; Release 2.11.0 wurde fuer SUSE NeuVector veroeffentlicht. Die Aenderung betrifft Deployment/Helm und hat einen Security-Bezug. Wichtige Punkte: fix: use httpGet for controller readniness probe; chore: support renovate; Update GitHub Actions (master) (major); Update module github.com/gruntwork-io/terratest to v0.56.0 (master).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version:&lt;/strong&gt; v2.11.0&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; neuvector/neuvector-helm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release-Typ:&lt;/strong&gt; Offizielles GitHub Release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevanz:&lt;/strong&gt; Treffer: security, compliance, probe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Einordnung:&lt;/strong&gt; Helm/Deployment Release mit Security-Bezug&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quelle:&lt;/strong&gt; &lt;a href="https://github.com/neuvector/neuvector-helm/releases/tag/v2.11.0"&gt;https://github.com/neuvector/neuvector-helm/releases/tag/v2.11.0&lt;/a&gt;&lt;/p&gt;</description>
+      <category>suse</category>
+      <category>neuvector</category>
+      <category>helm</category>
+      <category>kubernetes</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>SUSE NeuVector: v5.6.0 Release</title>
+      <link>https://github.com/neuvector/neuvector/releases/tag/v5.6.0</link>
+      <guid isPermaLink="true">https://github.com/neuvector/neuvector/releases/tag/v5.6.0</guid>
+      <pubDate>Wed, 15 Jul 2026 02:42:38 GMT</pubDate>
+      <description>&lt;h2&gt;SUSE NeuVector: v5.6.0 Release&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kurzfassung:&lt;/strong&gt; v5.6.0 Release wurde fuer SUSE NeuVector veroeffentlicht. Die Release Notes weisen auf Security- oder Vulnerability-Fixes hin. Wichtige Punkte: issue-2235: feat: add a column containing image digest in generated reports for containers; NVSHAS-8242: Add Critical CVE Severity to support CVSS v3 scores 9.0-…; chore(deps): update module github.com/moby/spdystream to v0.5.1 [security]; feat: implement govulncheck for neuvector repos.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version:&lt;/strong&gt; v5.6.0&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; neuvector/neuvector&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release-Typ:&lt;/strong&gt; Offizielles GitHub Release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevanz:&lt;/strong&gt; Treffer: security, vulnerability, cve, critical, upgrade&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Einordnung:&lt;/strong&gt; Security oder Vulnerability Fix&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quelle:&lt;/strong&gt; &lt;a href="https://github.com/neuvector/neuvector/releases/tag/v5.6.0"&gt;https://github.com/neuvector/neuvector/releases/tag/v5.6.0&lt;/a&gt;&lt;/p&gt;</description>
+      <category>suse</category>
+      <category>neuvector</category>
+      <category>container-security</category>
+      <category>kubernetes</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>SUSE NeuVector: Release 2.10.3</title>
+      <link>https://github.com/neuvector/neuvector-helm/releases/tag/v2.10.3</link>
+      <guid isPermaLink="true">https://github.com/neuvector/neuvector-helm/releases/tag/v2.10.3</guid>
+      <pubDate>Thu, 18 Jun 2026 17:36:01 GMT</pubDate>
+      <description>&lt;h2&gt;SUSE NeuVector: Release 2.10.3&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kurzfassung:&lt;/strong&gt; Release 2.10.3 wurde fuer SUSE NeuVector veroeffentlicht. Die Aenderung betrifft Deployment/Helm und hat einen Security-Bezug. Wichtige Punkte: Update security [SECURITY] (release/v2.10); fix: use httpGet for controller readniness probe (2.10); feat: bump versions using updatecli (v2.10); chore: helm chart 2.10.3 release.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version:&lt;/strong&gt; v2.10.3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; neuvector/neuvector-helm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release-Typ:&lt;/strong&gt; Offizielles GitHub Release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevanz:&lt;/strong&gt; Treffer: security, probe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Einordnung:&lt;/strong&gt; Helm/Deployment Release mit Security-Bezug&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quelle:&lt;/strong&gt; &lt;a href="https://github.com/neuvector/neuvector-helm/releases/tag/v2.10.3"&gt;https://github.com/neuvector/neuvector-helm/releases/tag/v2.10.3&lt;/a&gt;&lt;/p&gt;</description>
+      <category>suse</category>
+      <category>neuvector</category>
+      <category>helm</category>
+      <category>kubernetes</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>SUSE NeuVector: v5.5.3 Release</title>
+      <link>https://github.com/neuvector/neuvector/releases/tag/v5.5.3</link>
+      <guid isPermaLink="true">https://github.com/neuvector/neuvector/releases/tag/v5.5.3</guid>
+      <pubDate>Wed, 17 Jun 2026 17:03:28 GMT</pubDate>
+      <description>&lt;h2&gt;SUSE NeuVector: v5.5.3 Release&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kurzfassung:&lt;/strong&gt; v5.5.3 Release wurde fuer SUSE NeuVector veroeffentlicht. Einordnung: Bugfix Release. Wichtige Punkte: 2227: UBI controller images don't work in newer OpenShift environment.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version:&lt;/strong&gt; v5.5.3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; neuvector/neuvector&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release-Typ:&lt;/strong&gt; Offizielles GitHub Release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevanz:&lt;/strong&gt; Relevant gemaess Projektinteressen: Security Fixes und Vulnerability Fixes; CVE- oder Schwachstellenbezug&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Einordnung:&lt;/strong&gt; Bugfix Release&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quelle:&lt;/strong&gt; &lt;a href="https://github.com/neuvector/neuvector/releases/tag/v5.5.3"&gt;https://github.com/neuvector/neuvector/releases/tag/v5.5.3&lt;/a&gt;&lt;/p&gt;</description>
+      <category>suse</category>
+      <category>neuvector</category>
+      <category>container-security</category>
+      <category>kubernetes</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>SUSE NeuVector: Release 2.9.10</title>
+      <link>https://github.com/neuvector/neuvector-helm/releases/tag/v2.9.10</link>
+      <guid isPermaLink="true">https://github.com/neuvector/neuvector-helm/releases/tag/v2.9.10</guid>
+      <pubDate>Fri, 29 May 2026 16:51:17 GMT</pubDate>
+      <description>&lt;h2&gt;SUSE NeuVector: Release 2.9.10&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kurzfassung:&lt;/strong&gt; Release 2.9.10 wurde fuer SUSE NeuVector veroeffentlicht. Einordnung: Helm/Deployment Release. Wichtige Punkte: fixing NVSHAS-10267; fix: git permissions; chore: bump version for chart 2.9.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version:&lt;/strong&gt; v2.9.10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; neuvector/neuvector-helm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release-Typ:&lt;/strong&gt; Offizielles GitHub Release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevanz:&lt;/strong&gt; Relevant gemaess Projektinteressen: Chart-Version und zugehoerige NeuVector-Version; Aenderungen an Kubernetes Manifests, CRDs oder Probes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Einordnung:&lt;/strong&gt; Helm/Deployment Release&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quelle:&lt;/strong&gt; &lt;a href="https://github.com/neuvector/neuvector-helm/releases/tag/v2.9.10"&gt;https://github.com/neuvector/neuvector-helm/releases/tag/v2.9.10&lt;/a&gt;&lt;/p&gt;</description>
+      <category>suse</category>
+      <category>neuvector</category>
+      <category>helm</category>
+      <category>kubernetes</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>SUSE NeuVector: Release 2.10.2</title>
+      <link>https://github.com/neuvector/neuvector-helm/releases/tag/v2.10.2</link>
+      <guid isPermaLink="true">https://github.com/neuvector/neuvector-helm/releases/tag/v2.10.2</guid>
+      <pubDate>Fri, 29 May 2026 16:49:13 GMT</pubDate>
+      <description>&lt;h2&gt;SUSE NeuVector: Release 2.10.2&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kurzfassung:&lt;/strong&gt; Release 2.10.2 wurde fuer SUSE NeuVector veroeffentlicht. Einordnung: Helm/Deployment Release. Wichtige Punkte: fixing NVSHAS-10267; fix: git permissions; chore: bump version for chart 2.10.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version:&lt;/strong&gt; v2.10.2&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; neuvector/neuvector-helm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release-Typ:&lt;/strong&gt; Offizielles GitHub Release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevanz:&lt;/strong&gt; Relevant gemaess Projektinteressen: Chart-Version und zugehoerige NeuVector-Version; Aenderungen an Kubernetes Manifests, CRDs oder Probes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Einordnung:&lt;/strong&gt; Helm/Deployment Release&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quelle:&lt;/strong&gt; &lt;a href="https://github.com/neuvector/neuvector-helm/releases/tag/v2.10.2"&gt;https://github.com/neuvector/neuvector-helm/releases/tag/v2.10.2&lt;/a&gt;&lt;/p&gt;</description>
+      <category>suse</category>
+      <category>neuvector</category>
+      <category>helm</category>
+      <category>kubernetes</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>SUSE NeuVector: v5.4.10 Release</title>
+      <link>https://github.com/neuvector/neuvector/releases/tag/v5.4.10</link>
+      <guid isPermaLink="true">https://github.com/neuvector/neuvector/releases/tag/v5.4.10</guid>
+      <pubDate>Wed, 27 May 2026 13:00:05 GMT</pubDate>
+      <description>&lt;h2&gt;SUSE NeuVector: v5.4.10 Release&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kurzfassung:&lt;/strong&gt; v5.4.10 Release wurde fuer SUSE NeuVector veroeffentlicht. Die Release Notes weisen auf Security- oder Vulnerability-Fixes hin. Release-Notiz: This release is for vulnerability fixes only&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version:&lt;/strong&gt; v5.4.10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; neuvector/neuvector&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release-Typ:&lt;/strong&gt; Offizielles GitHub Release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevanz:&lt;/strong&gt; Treffer: vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Einordnung:&lt;/strong&gt; Security oder Vulnerability Fix&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quelle:&lt;/strong&gt; &lt;a href="https://github.com/neuvector/neuvector/releases/tag/v5.4.10"&gt;https://github.com/neuvector/neuvector/releases/tag/v5.4.10&lt;/a&gt;&lt;/p&gt;</description>
+      <category>suse</category>
+      <category>neuvector</category>
+      <category>container-security</category>
+      <category>kubernetes</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>SUSE NeuVector: v5.5.2 Release</title>
+      <link>https://github.com/neuvector/neuvector/releases/tag/v5.5.2</link>
+      <guid isPermaLink="true">https://github.com/neuvector/neuvector/releases/tag/v5.5.2</guid>
+      <pubDate>Wed, 27 May 2026 12:57:25 GMT</pubDate>
+      <description>&lt;h2&gt;SUSE NeuVector: v5.5.2 Release&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kurzfassung:&lt;/strong&gt; v5.5.2 Release wurde fuer SUSE NeuVector veroeffentlicht. Die Release Notes weisen auf Security- oder Vulnerability-Fixes hin. Release-Notiz: This release is for vulnerability fixes only&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version:&lt;/strong&gt; v5.5.2&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; neuvector/neuvector&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release-Typ:&lt;/strong&gt; Offizielles GitHub Release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevanz:&lt;/strong&gt; Treffer: vulnerability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Einordnung:&lt;/strong&gt; Security oder Vulnerability Fix&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quelle:&lt;/strong&gt; &lt;a href="https://github.com/neuvector/neuvector/releases/tag/v5.5.2"&gt;https://github.com/neuvector/neuvector/releases/tag/v5.5.2&lt;/a&gt;&lt;/p&gt;</description>
+      <category>suse</category>
+      <category>neuvector</category>
+      <category>container-security</category>
+      <category>kubernetes</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>SUSE NeuVector: v5.5.1 Release</title>
+      <link>https://github.com/neuvector/neuvector/releases/tag/v5.5.1</link>
+      <guid isPermaLink="true">https://github.com/neuvector/neuvector/releases/tag/v5.5.1</guid>
+      <pubDate>Fri, 24 Apr 2026 23:53:52 GMT</pubDate>
+      <description>&lt;h2&gt;SUSE NeuVector: v5.5.1 Release&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kurzfassung:&lt;/strong&gt; v5.5.1 Release wurde fuer SUSE NeuVector veroeffentlicht. Einordnung: Bugfix Release. Wichtige Punkte: 2248: Expose OS scan support status from scanner results; 2255: Unable to scan image registry by API(v1/scan/repository) with proxy enabled through curl.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version:&lt;/strong&gt; v5.5.1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; neuvector/neuvector&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release-Typ:&lt;/strong&gt; Offizielles GitHub Release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevanz:&lt;/strong&gt; Relevant gemaess Projektinteressen: Security Fixes und Vulnerability Fixes; CVE- oder Schwachstellenbezug&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Einordnung:&lt;/strong&gt; Bugfix Release&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quelle:&lt;/strong&gt; &lt;a href="https://github.com/neuvector/neuvector/releases/tag/v5.5.1"&gt;https://github.com/neuvector/neuvector/releases/tag/v5.5.1&lt;/a&gt;&lt;/p&gt;</description>
+      <category>suse</category>
+      <category>neuvector</category>
+      <category>container-security</category>
+      <category>kubernetes</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>SUSE NeuVector: Release 2.8.13</title>
+      <link>https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.13</link>
+      <guid isPermaLink="true">https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.13</guid>
+      <pubDate>Fri, 24 Apr 2026 11:01:24 GMT</pubDate>
+      <description>&lt;h2&gt;SUSE NeuVector: Release 2.8.13&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kurzfassung:&lt;/strong&gt; Release 2.8.13 wurde fuer SUSE NeuVector veroeffentlicht. Einordnung: Helm/Deployment Release. Wichtige Punkte: chore: bump helm chart versions for NeuVector 5.5.1.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version:&lt;/strong&gt; v2.8.13&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; neuvector/neuvector-helm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release-Typ:&lt;/strong&gt; Offizielles GitHub Release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevanz:&lt;/strong&gt; Relevant gemaess Projektinteressen: Chart-Version und zugehoerige NeuVector-Version; Aenderungen an Kubernetes Manifests, CRDs oder Probes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Einordnung:&lt;/strong&gt; Helm/Deployment Release&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quelle:&lt;/strong&gt; &lt;a href="https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.13"&gt;https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.13&lt;/a&gt;&lt;/p&gt;</description>
+      <category>suse</category>
+      <category>neuvector</category>
+      <category>helm</category>
+      <category>kubernetes</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>SUSE NeuVector: Release 2.8.12</title>
+      <link>https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.12</link>
+      <guid isPermaLink="true">https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.12</guid>
+      <pubDate>Thu, 19 Mar 2026 02:00:37 GMT</pubDate>
+      <description>&lt;h2&gt;SUSE NeuVector: Release 2.8.12&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kurzfassung:&lt;/strong&gt; Release 2.8.12 wurde fuer SUSE NeuVector veroeffentlicht. Einordnung: Helm/Deployment Release. Wichtige Punkte: NVSHAS-10244: Set env var RANCHER_CLUSTER_NAME for deployment on Rancher env; chore: bump helm chart versions for NeuVector 5.5.0.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version:&lt;/strong&gt; v2.8.12&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; neuvector/neuvector-helm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release-Typ:&lt;/strong&gt; Offizielles GitHub Release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevanz:&lt;/strong&gt; Treffer: rancher&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Einordnung:&lt;/strong&gt; Helm/Deployment Release&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quelle:&lt;/strong&gt; &lt;a href="https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.12"&gt;https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.12&lt;/a&gt;&lt;/p&gt;</description>
+      <category>suse</category>
+      <category>neuvector</category>
+      <category>helm</category>
+      <category>kubernetes</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>SUSE NeuVector: Release 2.8.11</title>
+      <link>https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.11</link>
+      <guid isPermaLink="true">https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.11</guid>
+      <pubDate>Tue, 17 Feb 2026 14:39:57 GMT</pubDate>
+      <description>&lt;h2&gt;SUSE NeuVector: Release 2.8.11&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kurzfassung:&lt;/strong&gt; Release 2.8.11 wurde fuer SUSE NeuVector veroeffentlicht. Einordnung: Helm/Deployment Release. Wichtige Punkte: Add FOSSA scanning workflow; chore: bump helm chart versions for NeuVector 5.4.9; @macedogm made their first contribution.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version:&lt;/strong&gt; v2.8.11&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; neuvector/neuvector-helm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release-Typ:&lt;/strong&gt; Offizielles GitHub Release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevanz:&lt;/strong&gt; Relevant gemaess Projektinteressen: Chart-Version und zugehoerige NeuVector-Version; Aenderungen an Kubernetes Manifests, CRDs oder Probes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Einordnung:&lt;/strong&gt; Helm/Deployment Release&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quelle:&lt;/strong&gt; &lt;a href="https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.11"&gt;https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.11&lt;/a&gt;&lt;/p&gt;</description>
+      <category>suse</category>
+      <category>neuvector</category>
+      <category>helm</category>
+      <category>kubernetes</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>SUSE NeuVector: Release 2.8.10</title>
+      <link>https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.10</link>
+      <guid isPermaLink="true">https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.10</guid>
+      <pubDate>Fri, 12 Dec 2025 22:14:16 GMT</pubDate>
+      <description>&lt;h2&gt;SUSE NeuVector: Release 2.8.10&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kurzfassung:&lt;/strong&gt; Release 2.8.10 wurde fuer SUSE NeuVector veroeffentlicht. Einordnung: Helm/Deployment Release. Wichtige Punkte: NVSHAS-9300: customize controller and manager service port and target port in helm chart; feat: allow to update nginx.ingress.kubernetes.io/backend-protocol annotation by @ rajeshkio; chore: bump helm chart versions for NeuVector 5.4.8; @williamlin-suse made their first contribution.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version:&lt;/strong&gt; v2.8.10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; neuvector/neuvector-helm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release-Typ:&lt;/strong&gt; Offizielles GitHub Release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevanz:&lt;/strong&gt; Relevant gemaess Projektinteressen: Chart-Version und zugehoerige NeuVector-Version; Aenderungen an Kubernetes Manifests, CRDs oder Probes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Einordnung:&lt;/strong&gt; Helm/Deployment Release&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quelle:&lt;/strong&gt; &lt;a href="https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.10"&gt;https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.10&lt;/a&gt;&lt;/p&gt;</description>
+      <category>suse</category>
+      <category>neuvector</category>
+      <category>helm</category>
+      <category>kubernetes</category>
+      <category>release</category>
+    </item>
+    <item>
+      <title>SUSE NeuVector: Release 2.8.9</title>
+      <link>https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.9</link>
+      <guid isPermaLink="true">https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.9</guid>
+      <pubDate>Tue, 21 Oct 2025 05:33:48 GMT</pubDate>
+      <description>&lt;h2&gt;SUSE NeuVector: Release 2.8.9&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kurzfassung:&lt;/strong&gt; Release 2.8.9 wurde fuer SUSE NeuVector veroeffentlicht. Die Aenderung betrifft Deployment/Helm und hat einen Security-Bezug. Wichtige Punkte: NVSHAS-10074 Update NV helm &amp;amp; manifest about the new field for CRD nvadmissioncontrolsecurityrules.neuvector.com; chore: bump up helm chart versions; @gfsuse made their first contribution.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version:&lt;/strong&gt; v2.8.9&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Repository:&lt;/strong&gt; neuvector/neuvector-helm&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Release-Typ:&lt;/strong&gt; Offizielles GitHub Release&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Relevanz:&lt;/strong&gt; Treffer: security, crd&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Einordnung:&lt;/strong&gt; Helm/Deployment Release mit Security-Bezug&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Quelle:&lt;/strong&gt; &lt;a href="https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.9"&gt;https://github.com/neuvector/neuvector-helm/releases/tag/v2.8.9&lt;/a&gt;&lt;/p&gt;</description>
+      <category>suse</category>
+      <category>neuvector</category>
+      <category>helm</category>
+      <category>kubernetes</category>
+      <category>release</category>
+    </item>
+  </channel>
+</rss>

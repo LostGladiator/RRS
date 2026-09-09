@@ -1,0 +1,119 @@
+[feed]
+title = "AI-gekuerzte GitHub Release News"
+description = "Gefilterte und kompakt formulierte Release-News aus GitHub-Projekten."
+link = "https://lostgladiator.github.io/RRS/feed.xml"
+self_url = "https://lostgladiator.github.io/RRS/feed.xml"
+language = "de-CH"
+output_file = "public/feed.xml"
+max_items = 30
+ttl_minutes = 1440
+managing_editor = "RSS Release Bot"
+webmaster = ""
+copyright = ""
+
+[schedule]
+timezone = "Europe/Rome"
+cron = "15 6 * * *"
+lookback_days = 3
+
+[summary]
+mode = "local-template"
+language = "de"
+tone = "sachlich, kurz, technisch hilfreich"
+max_chars = 800
+prompt_template = "prompts/release-summary.md"
+# Fuer spaetere AI-Integration:
+# mode = "external-command"
+# external_command = ["python3", "scripts/my_ai_summarizer.py"]
+
+[[projects]]
+id = "suse-neuvector-core"
+enabled = true
+product = "SUSE NeuVector"
+name = "NeuVector Core"
+owner = "neuvector"
+repo = "neuvector"
+homepage = "https://github.com/neuvector/neuvector"
+release_page = "https://github.com/neuvector/neuvector/releases"
+include_prereleases = false
+include_drafts = false
+lookback_days = 365
+include_keywords = []
+exclude_keywords = ["release candidate", "-rc", " rc", "alpha", "beta", "nightly"]
+categories = ["suse", "neuvector", "container-security", "kubernetes", "release"]
+audience = "Kubernetes-, Rancher- und Container-Security-Betreiber"
+interests = [
+  "Security Fixes und Vulnerability Fixes",
+  "CVE- oder Schwachstellenbezug",
+  "Breaking Changes",
+  "Upgrade- oder Migrationshinweise",
+  "Aenderungen an Controller, Enforcer oder Scanner",
+  "Bekannte Einschraenkungen oder manuelle Schritte"
+]
+severity_keywords = [
+  "security",
+  "vulnerability",
+  "cve",
+  "critical",
+  "high severity",
+  "breaking",
+  "migration",
+  "upgrade"
+]
+
+[[projects]]
+id = "suse-neuvector-helm"
+enabled = true
+product = "SUSE NeuVector"
+name = "NeuVector Helm Charts"
+owner = "neuvector"
+repo = "neuvector-helm"
+homepage = "https://github.com/neuvector/neuvector-helm"
+release_page = "https://github.com/neuvector/neuvector-helm/releases"
+include_prereleases = false
+include_drafts = false
+lookback_days = 365
+include_keywords = []
+exclude_keywords = ["release candidate", "-rc", " rc", "alpha", "beta", "nightly"]
+categories = ["suse", "neuvector", "helm", "kubernetes", "release"]
+audience = "Plattformteams, die NeuVector per Helm, Rancher oder OpenShift betreiben"
+interests = [
+  "Chart-Version und zugehoerige NeuVector-Version",
+  "Aenderungen an Kubernetes Manifests, CRDs oder Probes",
+  "Upgrade- oder Rollback-Hinweise",
+  "Rancher- und OpenShift-relevante Aenderungen",
+  "Security- oder Compliance-bezogene Chart-Aenderungen"
+]
+severity_keywords = [
+  "security",
+  "compliance",
+  "crd",
+  "probe",
+  "rancher",
+  "openshift",
+  "upgrade",
+  "breaking"
+]
+
+[[projects]]
+id = "suse-neuvector-manager"
+enabled = false
+product = "SUSE NeuVector"
+name = "NeuVector Manager"
+owner = "neuvector"
+repo = "manager"
+homepage = "https://github.com/neuvector/manager"
+release_page = "https://github.com/neuvector/manager/releases"
+include_prereleases = false
+include_drafts = false
+lookback_days = 30
+include_keywords = []
+exclude_keywords = ["release candidate", "-rc", " rc", "alpha", "beta", "nightly"]
+categories = ["suse", "neuvector", "manager", "ui"]
+audience = "NeuVector Administratoren"
+interests = [
+  "Aenderungen an der Admin Console",
+  "Login-, RBAC- oder UI-Security-Aenderungen",
+  "Kompatibilitaet mit Core- und Helm-Versionen"
+]
+severity_keywords = ["security", "rbac", "login", "upgrade", "breaking"]

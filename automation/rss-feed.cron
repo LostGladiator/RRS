@@ -1,0 +1,4 @@
+# Beispiel: taeglich um 06:15 Europe/Rome ausfuehren.
+# Pfad anpassen, sobald der endgueltige Speicherort feststeht.
+#
+# 15 6 * * * cd /Users/thomasweiss/repos/nzz/local/RSS/RRS && /usr/bin/env python3.12 -B scripts/github_release_rss.py --config config/projects.toml >> logs/rss-feed.log 2>&1
